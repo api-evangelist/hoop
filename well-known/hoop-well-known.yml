@@ -1,0 +1,20 @@
+generated: '2026-07-19'
+method: searched
+source: live probes of https://www.hoop.app/.well-known/*
+host: https://www.hoop.app
+note: >-
+  Hoop is an end-user SaaS application (AI subscription-retention agent), not an
+  API provider. No /.well-known/ discovery documents are published. Probes
+  recorded for auditability; absence is a valid, expected result. No WellKnown
+  pointer emitted because nothing was found.
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404

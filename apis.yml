@@ -1,21 +1,50 @@
 aid: hoop
 name: Hoop
-description: 'Hoop is a company surfaced as a portfolio company of index-ventures and added to the API
-  Evangelist network as a stub for enrichment. Sector: business-applications. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Hoop is an AI retention agent for Shopify subscription brands, built by the
+  founding team behind Trello and backed by Index Ventures. It plugs into a
+  brand's helpdesk (Gorgias, Zendesk, or Kustomer), intercepts every
+  subscription-cancellation ticket, and runs a tailored save conversation in the
+  brand's voice: it asks why the subscriber wants to leave, then matches a
+  retention offer (pause, plan swap, discount, or skip) to the stated reason and
+  writes the accepted change back to the billing tool (Recharge or Skio)
+  automatically. Hoop logs every cancellation reason, offer, and outcome so
+  brands learn why subscribers churn, and lets teams A/B test save offers through
+  plain-English policy changes rather than macros. It is an end-user SaaS
+  application rather than an API provider — it consumes the Shopify, Gorgias,
+  Zendesk, Recharge, and Skio APIs and exposes no public developer API, SDK, or
+  documentation of its own.
 url: https://raw.githubusercontent.com/api-evangelist/hoop/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.hoop.app/landing/v1/og.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - index-ventures
-x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier: profiled
+x-tier-reason: no-public-api
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Business Applications
+- Customer Retention
+- Ecommerce
+- Shopify
+- Subscriptions
+- Customer Support
+- AI Agent
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +54,20 @@ maintainers:
 common:
 - type: Website
   url: https://www.hoop.app/
+- type: Blog
+  url: https://www.hoop.app/blog
+- type: Pricing
+  url: https://www.hoop.app/pricing
+- type: TermsOfService
+  url: https://www.hoop.app/terms
+- type: PrivacyPolicy
+  url: https://www.hoop.app/privacy
+- type: LLMsTxt
+  url: llms/hoop-llms.txt
+- type: DomainSecurity
+  url: security/hoop-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

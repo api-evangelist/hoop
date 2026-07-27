@@ -1,0 +1,41 @@
+# Hoop
+
+> Hoop is an AI retention agent for Shopify subscription brands. It plugs into Gorgias, Zendesk, or Kustomer, intercepts every cancellation ticket, and runs a real save conversation in the brand's voice: it asks why the subscriber wants to leave, then matches the offer to the reason. Built by the team behind Trello, backed by Index Ventures.
+
+## Product
+- [Homepage](https://www.hoop.app/): What Hoop does, how it works, ROI calculator, FAQ
+- [About](https://www.hoop.app/about): Company story and founders (former Trello leadership team)
+- [Integrations](https://www.hoop.app/integrations): Helpdesk and subscription billing integrations
+- [Blog](https://www.hoop.app/blog): Subscription retention research and product updates
+
+## What Hoop Does
+- Reads every cancel ticket the moment it lands in Gorgias, Zendesk, or Kustomer, 24/7
+- Has a conversation about why the subscriber wants to leave before offering anything
+- Picks the save offer most likely to keep that subscriber, based on the stated reason
+- Writes accepted changes (pause, swap, discount, skip) back to the billing tool automatically
+- Logs every cancel reason, offer, and outcome so brands learn why subscribers churn
+- A/B tests save offers through plain-English policy changes, no macros or retraining
+
+## Who It's For
+- Direct-to-consumer subscription brands on Shopify
+- Teams using Gorgias, Zendesk, or Kustomer for customer support
+- Subscription billing on Recharge or Skio
+- Shopify as the commerce platform (Hoop reads order, product, and customer data)
+
+## How It's Different
+General-purpose AI support tools (Gorgias AI, Intercom Fin) handle cancel tickets like any other ticket. Hoop is purpose-built for subscription retention: every cancellation gets a tailored save conversation, and the headline metric is recurring revenue retained.
+
+## Setup
+- Integrates via OAuth in about 20 minutes; most brands are live within a week
+- Hoop's team handles integration and ingests the last 90 days of cancellation history
+- Runs in draft mode during onboarding so the team reviews every reply before it sends
+- Only touches the cancellation queue, never other ticket categories
+
+## Pricing
+- Pricing scales with cancellation volume
+- [Book a demo](https://www.hoop.app/) for numbers specific to your brand
+
+## Optional
+- [Privacy Policy](https://www.hoop.app/privacy)
+- [Terms of Service](https://www.hoop.app/terms)
+- [llms-full.txt](https://www.hoop.app/llms-full.txt): Extended version with full FAQ
