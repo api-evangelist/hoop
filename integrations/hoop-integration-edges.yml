@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/hoop/integrations
+- https://n8n.io/integrations/hoop/
+- https://composio.dev/toolkits/hoop
+- https://monid.ai/tools/hoop
+checked:
+- https://composio.dev/toolkits/hoop
+- https://monid.ai/tools/hoop
+- https://n8n.io/integrations/hoop/
+- https://zapier.com/apps/hoop/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
